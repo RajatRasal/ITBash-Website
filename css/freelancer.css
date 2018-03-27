@@ -44,11 +44,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #605E5E;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #605E5E;
   background-color: white;
 }
 
@@ -115,7 +115,8 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #84e0be;
+  /*color: #84e0be;*/
+	color: rgba(231,255,110,1);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -149,11 +150,13 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #84e0be;
+    // color: #fff;
+		color: rgba(231,255,110,1);
+    /*background: #84e0be;*/
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    /* color: #fff;*/
+		color: rgba(231,255,110,1);
     background: #84e0be;
   }
   #mainNav.navbar-shrink {
@@ -166,7 +169,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: 2rem; /*calc(6rem); + 10px);*/
+  /*padding-top: 6rem; /*calc(6rem); + 10px);*/
   padding-bottom: 6rem;
 }
 
@@ -182,7 +185,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 3.5rem; /*calc(6rem); + 20px);*/
+    padding-top: 2rem; /*calc(6rem); + 20px);*/
     padding-bottom: 6rem;
   }
   header.masthead h1 {
@@ -337,7 +340,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #605E5E;
   color: #fff;
 }
 
@@ -350,7 +353,8 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  /*color: #128f76;*/
+  color: red;
 }
 
 .btn {
@@ -362,7 +366,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #605E5E !important;
 }
 
 .text-primary {
@@ -370,7 +374,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #605E5E !important;
 }
 
 .btn-primary {
@@ -384,8 +388,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #605E5E;
+  border-color: #605E5E;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
