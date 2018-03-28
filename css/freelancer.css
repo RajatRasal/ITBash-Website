@@ -124,12 +124,26 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #84e0be;
+  /* color: #84e0be;*/
+	color: rgba(231,255,110,1);
 }
 
 #mainNav .navbar-toggler {
+  font-size: 2vw;
+	/*
   font-size: 80%;
   padding: 0.8rem;
+	*/
+}
+
+#mainNav > div.container > button.navbar-toggler:hover {
+	color: rgba(231,255,110,1) !important;
+}
+
+@media (max-width: 992px) {
+	.bg-none {
+		background-color: #605E5E !important;
+	}
 }
 
 @media (min-width: 992px) {
