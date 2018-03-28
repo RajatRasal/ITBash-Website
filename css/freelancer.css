@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lato';
 }
 
 h1,
@@ -9,7 +9,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: Helvetica, 'Montserrat';
 }
 
 hr.star-light,
@@ -98,7 +98,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Helvetica Neue', Helvetica, 'Montserrat';
 }
 
 #mainNav .navbar-brand {
@@ -157,7 +157,7 @@ section h2 {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     /* color: #fff;*/
 		color: rgba(231,255,110,1);
-    background: #84e0be;
+    /*background: #84e0be;*/
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -169,8 +169,8 @@ section h2 {
 }
 
 header.masthead {
-  /*padding-top: 6rem; /*calc(6rem); + 10px);*/
-  padding-bottom: 6rem;
+  /*padding-top: 6rem; /*calc(6rem); + 10px);
+  padding-bottom: 8rem;*/
 }
 
 header.masthead h1 {
@@ -367,6 +367,21 @@ a:focus, a:hover, a:active {
 
 .bg-secondary {
   background-color: #605E5E !important;
+	/*
+  -webkit-transition: background-color 0.3s, background-color: 0.3s ease;
+  -moz-transition: background-color 0.3s, background-color: 0.3s ease;
+  transition: background-color 0.3s, background-color: 0.3s ease;
+	*/
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.bg-none {
+	background-color: none !important; 
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
 }
 
 .text-primary {
@@ -375,6 +390,10 @@ a:focus, a:hover, a:active {
 
 .text-secondary {
   color: #605E5E !important;
+}
+
+.text-ternary {
+	color: rgba(231,255,110,1) !important;
 }
 
 .btn-primary {
