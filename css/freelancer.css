@@ -12,6 +12,16 @@ h6 {
   font-family: Helvetica, 'Montserrat';
 }
 
+hr.white-sleek {
+	/*
+	margin-top: 40px;
+	margin-bottom: 40px;
+	*/
+	border-top: 2px solid #eee;
+	max-width: 70%;
+  /*line-height: 4rem !important;*/
+}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -53,12 +63,12 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 
 section h2 {
   font-size: 2.25rem;
-  line-height: 2rem;
+  /*line-height: 4rem;*/
 }
 
 @media (min-width: 992px) {
@@ -107,7 +117,9 @@ section h2 {
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
-  letter-spacing: 0.0625rem;
+  /* letter-spacing: 0.0625rem;*/
+	letter-spacing: 0.0150rem;
+	font-size: 0.9rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -146,6 +158,19 @@ section h2 {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.text-secondary-header {
+		font-size: 76.8px !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.text-secondary-header {
+		font-size: 99.2px !important;
+		padding-bottom: 20px;
+	}
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -178,7 +203,7 @@ section h2 {
     padding-bottom: 0.5rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -188,11 +213,12 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 5rem;
+  line-height: 5rem;
 }
 
-header.masthead h2 {
+header.masthead h2, 
+header.masthead h3 {
   font-size: 1.3rem;
   font-family: 'Lato';
 }
@@ -203,11 +229,13 @@ header.masthead h2 {
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
-    line-height: 4rem;
+    font-size: 7.75em;
+    line-height: 6rem;
   }
-  header.masthead h2 {
-    font-size: 1.75em;
+  header.masthead h2,
+  header.masthead h3 {
+    font-size: 2.25em;
+		font-family: 'Lato';
   }
 }
 
@@ -404,6 +432,10 @@ a:focus, a:hover, a:active {
 
 .text-secondary {
   color: #605E5E !important;
+}
+
+.text-secondary-header {
+	font-size: 10vw;
 }
 
 .text-ternary {
