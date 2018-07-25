@@ -329,7 +329,7 @@ header.masthead h3 {
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-  font-size: 1.5em;
+  font-size: 1.25em;
   position: relative;
   z-index: 1;
   padding-right: 0;
@@ -377,8 +377,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #605E5E;
   color: #fff;
 }
@@ -466,7 +466,7 @@ a:focus, a:hover, a:active {
   border-radius: 50px;
   border: none;
   transition: 0.3s;
-  box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.3);
 }
 
 .button.white {
@@ -522,5 +522,31 @@ a:focus, a:hover, a:active {
 }
 
 .fa-dot-circle-o {
-  box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+.scrolling-button {
+  box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+.scrolling-button#services-btn {
+  font-style: inherit;
+  border-color: #605E5E;
+  color: #605E5E;
+  background-color: transparent;
+}
+
+.scrolling-button#services-btn:hover {
+  background-color: #605E5E;
+  color: #FFF;
+}
+
+.service-image-holder {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.service-image {
+  display: block;
+  margin: 0 auto;
 }
